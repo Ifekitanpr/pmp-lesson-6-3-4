@@ -158,10 +158,10 @@ const quizzes = {
     question:
       'Scenario: A team member notices an emerging issue early but hesitates to raise it, worried about how it will be perceived. By the time it’s finally reported, the issue has grown significantly harder to resolve. Which collaborative practice does this scenario most directly illustrate the absence of?',
     answers: [
-      'Document issues clearly, since the Issue Log wasn’t used',
-      'Encourage early reporting — creating a space where issues can be raised without fear is what prevents this kind of escalation in the first place',
-      'Escalate when needed, since the issue eventually required more authority to resolve',
-      'Evaluate options as a group, since no group discussion occurred before the issue grew'
+      "Document issues clearly, since the Issue Log wasn’t used",
+      "Encourage early reporting by making it safe to raise issues without fear",
+      "Escalate when needed, since the issue eventually required more authority to resolve",
+      "Evaluate options as a group, since no group discussion occurred before the issue grew",
     ],
     correct: 1,
     good: 'Correct! This is specifically a failure to create an environment where early reporting feels safe — the issue growing harder to resolve is exactly the cost of that hesitation, not a documentation, escalation, or group-evaluation gap.',
@@ -171,12 +171,12 @@ const quizzes = {
     question:
       'Scenario: A project team is running a traditional, predictive project but wants to improve how quickly issues surface and get resolved. Without adopting a full agile framework, what is the most appropriate way to apply the practices described in this lesson?',
     answers: [
-      'The team cannot benefit from any of these practices unless the entire project shifts to an agile methodology',
-      'Borrow agile-like habits such as visible issue boards, short frequent check-ins, and collaborative problem-solving workshops, without changing the overall methodology',
-      'Replace the Issue Log entirely with a daily stand-up format',
-      'Escalate every issue immediately regardless of severity, since agile teams escalate everything'
+      "The team cannot benefit from any of these practices unless the entire project shifts to an agile methodology",
+      "Replace the Issue Log entirely with a daily stand-up format",
+      "Use agile-like visibility, check-ins, and workshops without changing the overall methodology",
+      "Escalate every issue immediately regardless of severity, since agile teams escalate everything",
     ],
-    correct: 1,
+    correct: 2,
     good: 'Correct! This is exactly what a hybrid approach looks like — borrowing agile-like habits such as visible boards, frequent check-ins, and collaborative workshops without requiring a full methodology shift.',
     bad: 'Reconsider — these habits don’t require a full agile transformation to adopt; the Issue Log and stand-ups serve different purposes rather than replacing each other; and agile teams don’t escalate everything indiscriminately — escalation is still reserved for decisions beyond the team’s level.'
   }
